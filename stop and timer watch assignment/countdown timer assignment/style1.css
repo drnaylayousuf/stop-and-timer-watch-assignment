@@ -1,0 +1,63 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+body {
+				text-align: center;
+				background-image: url("image12.jpg");
+                background-size: cover;
+                background-repeat: no-repeat;
+				font-family: sans-serif;
+				font-weight: 100;
+			}
+		
+			/* Styling for heading */
+			h1 {
+                font-family: 'Montserrat' sans-serif;
+                font-weight: 70px;
+                font-size: 75px;
+                margin: 40px 0px 55px;
+                padding: 25px;
+                 color : rgb(27, 26, 26);
+              
+                
+			
+/*  			
+                 border-bottom-style: solid;
+               border-bottom-width: medium;  */
+            }
+			#clockdiv {
+				font-family: sans-serif;
+				color: #e9dfdf;
+				display: inline-block;
+				font-weight: 100;
+				text-align: center;
+				font-size: 30px;
+			}
+			#clockdiv > div {
+				padding: 10px;
+				border-radius: 3px;
+				background: #5662a0;
+				display: inline-block;
+			}
+			#clockdiv div > span {
+				padding: 15px;
+				border-radius: 3px;
+				background: #1f3786;
+				display: inline-block;
+			}
+
+			/* Style for visible text */
+			.smalltext {
+				padding-top: 5px;
+				font-size: 16px;
+			}
+
+            #clockdiv {
+            border-radius: 20px;
+            background: rgb(36, 50, 82);
+            box-shadow: 5px 10px rgb(20, 18, 18);
+            padding: 30px;
+            width: 360px;
+            height: 140px;
+            margin-top: 15px;
+        }
